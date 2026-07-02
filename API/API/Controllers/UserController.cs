@@ -32,6 +32,21 @@ namespace API.Controllers
                 return StatusCode(500, "Erro interno no servidor");
             }
             
-        } 
-    }
+        }
+        [HttpPost]
+        public IActionResult Cadastro([FromBody] Usuario usuario)
+        {
+            try
+            {
+                ct.Usuarios.Add(usuario);
+                ct.SaveChanges();
+                return(Ok());
+            }
+            catch (Exception)
+            {
+
+                return(StatusCode(500,"Erro interno no servidor"));
+            }
+        }
+}
 }

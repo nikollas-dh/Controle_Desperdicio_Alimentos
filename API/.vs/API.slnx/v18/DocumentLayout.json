@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\models\\dbdesperdicioalimentoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\models\\dbdesperdicioalimentoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\models\\dbdesperdicioalimentoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\models\\dbdesperdicioalimentoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B70553E9-C9CA-4D6C-A89D-B88E69FD81CC}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\nikollas\\desktop\\execucoes_teste\\controle_desperdicio_alimentos\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\Controllers\\UserController.cs",
               "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-02T18:57:44.198Z",
               "EditorCaption": ""
@@ -63,12 +63,11 @@
               "RelativeToolTip": "API\\Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T18:56:59.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:56:59.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-02T18:55:43.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:55:43.444Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
@@ -89,12 +87,11 @@
               "RelativeToolTip": "API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-02T18:53:45.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:53:45.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DbDesperdicioAlimentosContext.cs",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\Models\\DbDesperdicioAlimentosContext.cs",
               "RelativeDocumentMoniker": "API\\Models\\DbDesperdicioAlimentosContext.cs",
@@ -102,25 +99,23 @@
               "RelativeToolTip": "API\\Models\\DbDesperdicioAlimentosContext.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwCsAAACRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T18:26:56.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:26:56.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "API",
+              "DocumentIndex": 5,
+              "Title": "API.csproj",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
               "ToolTip": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\API.csproj",
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-02T18:15:01.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:15:01.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nikollas\\Desktop\\Execucoes_teste\\Controle_Desperdicio_Alimentos\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T18:11:42.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T18:11:42.9Z"
             }
           ]
         }
