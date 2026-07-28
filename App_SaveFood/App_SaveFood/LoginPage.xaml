@@ -9,14 +9,14 @@
             <VerticalStackLayout>
                 <Image Source="logo" WidthRequest="200"/>
 
-                <Entry Placeholder="Email" WidthRequest="350"/>
-                <Entry Placeholder="Senha" WidthRequest="350" Margin="0,15,0,0"/>
+                <Entry Placeholder="Email" WidthRequest="350" x:Name="txtEmail"/>
+                <Entry Placeholder="Senha" WidthRequest="350" Margin="0,15,0,0" x:Name="txtSenha" IsPassword="True"/>
                 <HorizontalStackLayout Margin="45,0,0,20">
                     <CheckBox/>
                     <Label Text="Não sou um robô" VerticalOptions="Center"/>
                     <Label Text="Esqueci minha senha?" VerticalOptions="Center" Margin="60,0,0,0" TextDecorations="Underline" TextColor="Green" FontAttributes="Bold"/>
                 </HorizontalStackLayout>
-                <Button Text="Acessar" WidthRequest="250" HeightRequest="50" Margin="0,60,0,15" FontAttributes="Bold" FontSize="16" CornerRadius="50"/>
+                <Button Text="Acessar" WidthRequest="250" HeightRequest="50" Margin="0,60,0,15" FontAttributes="Bold" FontSize="16" CornerRadius="50" x:Name="btnLogin" Clicked="btnLogin_Clicked"/>
                 <Button Text="Criar Conta" WidthRequest="250" HeightRequest="50" BackgroundColor="Gray" FontAttributes="Bold" FontSize="16" CornerRadius="50"/>
 
                     
