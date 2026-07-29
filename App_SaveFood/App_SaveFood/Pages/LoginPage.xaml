@@ -10,7 +10,11 @@
                 <Image Source="logo" WidthRequest="200"/>
 
                 <Entry Placeholder="Email" WidthRequest="350" x:Name="txtEmail"/>
-                <Entry Placeholder="Senha" WidthRequest="350" Margin="0,15,0,0" x:Name="txtSenha" IsPassword="True"/>
+
+                <HorizontalStackLayout Margin="50,0,0,0">
+                    <Entry Placeholder="Senha" WidthRequest="350" Margin="0,15,0,0" x:Name="txtSenha" IsPassword="True"/>
+                    <ImageButton Source="eye.png" x:Name="eyeButton" Clicked="eyeButton_Clicked" WidthRequest="10"/>
+                </HorizontalStackLayout>
                 <HorizontalStackLayout Margin="45,0,0,20">
                     <CheckBox/>
                     <Label Text="Não sou um robô" VerticalOptions="Center"/>

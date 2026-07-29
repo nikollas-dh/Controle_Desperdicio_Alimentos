@@ -24,5 +24,17 @@ public partial class LoginPage : ContentPage
 		Navigation.PushAsync(new CadastroPage());
     }
 
-
+    private void eyeButton_Clicked(object sender, EventArgs e)
+    {
+        if (txtSenha.IsPassword)
+        {
+            eyeButton.Source = "eye_off.png";
+            txtSenha.IsPassword = false;
+        }
+        else
+        {
+            eyeButton.Source = "eye.png";
+            txtSenha.IsPassword=true;
+        }
+    }
 }
