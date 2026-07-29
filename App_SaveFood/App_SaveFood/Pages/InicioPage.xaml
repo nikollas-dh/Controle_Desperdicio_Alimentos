@@ -5,9 +5,29 @@
              Title="Início"
              IconImageSource="home.png">
     <VerticalStackLayout>
-        <Label 
-            Text="Página inicial"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Grid BackgroundColor="DarkSeaGreen">
+            <HorizontalStackLayout
+                Padding="20,10,20,20"
+                Spacing="15">
+                <Image
+                        Source="usuario.png"
+                        Aspect="AspectFill"
+                        WidthRequest="70"
+                        HeightRequest="70"/>
+                <VerticalStackLayout
+                    VerticalOptions="Center">
+                    <Label
+                        Text="Olá, user"
+                        FontAttributes="Bold"
+                        FontSize="22"
+                        TextColor="White"/>
+                    <Label
+                        Text="user@email.com"
+                        TextColor="White"
+                        FontSize="14"/>
+
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+        </Grid>
     </VerticalStackLayout>
 </ContentPage>
