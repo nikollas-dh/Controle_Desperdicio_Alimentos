@@ -14,5 +14,11 @@ public partial class LoginPage : ContentPage
 		Usuario usuario = new Usuario();
 		usuario.Email = txtEmail.Text;
 		usuario.Senha= txtSenha.Text;
+
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new CadastroPage());
     }
 }

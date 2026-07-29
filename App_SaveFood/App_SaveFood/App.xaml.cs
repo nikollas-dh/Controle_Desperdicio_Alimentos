@@ -11,7 +11,7 @@ namespace App_SaveFood
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new LoginPage());
+            return new Window(new NavigationPage(new LoginPage()));
         }
     }
 }
