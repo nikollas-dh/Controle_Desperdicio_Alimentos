@@ -13,7 +13,7 @@
                     <Entry Placeholder="Senha" x:Name="txtSenha"/>
                     <Entry Placeholder="Confirmar Senha" x:Name="txtConfirmarSenha"/>
 
-                    <Button Text="Criar Conta" FontAttributes="Bold" FontSize="16" Margin="0,150,0,0" CornerRadius="50"/>
+                    <Button Text="Criar Conta" FontAttributes="Bold" FontSize="16" Margin="0,150,0,0" CornerRadius="50"  WidthRequest="250" HeightRequest="60"/>
                 </VerticalStackLayout>
             </VerticalStackLayout>
         </Border>

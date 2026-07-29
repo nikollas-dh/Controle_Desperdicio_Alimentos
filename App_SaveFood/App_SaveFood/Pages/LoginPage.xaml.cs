@@ -15,10 +15,14 @@ public partial class LoginPage : ContentPage
 		usuario.Email = txtEmail.Text;
 		usuario.Senha= txtSenha.Text;
 
+        Application.Current.MainPage = new TabbedPageMenu();
+
     }
 
     private void Button_Clicked(object sender, EventArgs e)
     {
 		Navigation.PushAsync(new CadastroPage());
     }
+
+
 }
