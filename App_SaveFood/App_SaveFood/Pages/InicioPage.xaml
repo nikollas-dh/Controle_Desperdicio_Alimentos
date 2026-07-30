@@ -25,9 +25,66 @@
                         Text="user@email.com"
                         TextColor="White"
                         FontSize="14"/>
-
+           
                 </VerticalStackLayout>
             </HorizontalStackLayout>
         </Grid>
+
+        <Border Grid.Row="1"
+                BackgroundColor="White"
+                StrokeThickness="0"
+                StrokeShape="RoundRectangle 30">
+            <ScrollView>
+                <VerticalStackLayout Padding="10" Spacing="20">
+                    <Image Source="logo.png"  WidthRequest="150" HorizontalOptions="Center"/>
+                    <Label Text="Restaurante" HorizontalOptions="Center" FontAttributes="Bold" FontSize="18"/>
+                    <Border StrokeShape="RoundRectangle 15" Stroke="#D9D9D9">
+                        <Grid Padding="12" ColumnDefinitions="60,*,30">
+                            <Image Source="checklist.png" BackgroundColor="LightGray"/>
+                            <VerticalStackLayout Grid.Column="1" Padding="15">
+                                <Label Text="110" FontSize="28" FontAttributes="Bold"/>
+                                <Label Text="Todos os intens em estoque" FontSize="12"/>
+                            </VerticalStackLayout>
+                            <Label Grid.Column="2" Text=">" FontSize="32" VerticalOptions="Center" FontAttributes="Bold"/>
+                        </Grid>
+                    </Border>
+
+                    <Border StrokeShape="RoundRectangle 15" Stroke="#D9D9D9">
+                        <Grid Padding="12" ColumnDefinitions="60,*,30">
+                            <Image Source="checklist.png" BackgroundColor="Yellow"/>
+                            <VerticalStackLayout Grid.Column="1" Padding="15">
+                                <Label Text="30" FontSize="28" FontAttributes="Bold"/>
+                                <Label Text="Próximos de vencimento" FontSize="12"/>
+                            </VerticalStackLayout>
+                            <Label Grid.Column="2" Text=">" FontAttributes="Bold" FontSize="32" VerticalOptions="Center"/>
+                        </Grid>
+                        
+                    </Border>
+
+                    <Border StrokeShape="RoundRectangle 15" Stroke="#D9D9D9">
+                        <Grid Padding="12" ColumnDefinitions="60,*,30">
+                            <Image Source="checklist.png" BackgroundColor="Red"/>
+                            <VerticalStackLayout Grid.Column="1" Padding="15">
+                                <Label Text="5" FontSize="28" FontAttributes="Bold"/>
+                                <Label Text="Inpróprios para consumo" FontSize="12"/>
+                            </VerticalStackLayout>
+                            <Label Text=">" Grid.Column="2" HorizontalOptions="Center" FontSize="32" FontAttributes="Bold" VerticalOptions="Center"/>
+                        </Grid>
+                    </Border>
+
+                    <Border StrokeShape="RoundRectangle 15" Stroke="#D9D9D9">
+                        <Grid Padding="12" ColumnDefinitions="60,*,30">
+                            <Image Source="cesto_lixo.png" BackgroundColor="Red"/>
+                            <VerticalStackLayout Grid.Column="1" Padding="15">
+                                <Label Text="12" FontSize="28" FontAttributes="Bold"/>
+                                <Label Text="Descartados" FontSize="12"/>
+                            </VerticalStackLayout>
+                            <Label Text=">" FontAttributes="Bold" FontSize="32" Grid.Column="2"/>
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+            </ScrollView>
+          
+        </Border>
     </VerticalStackLayout>
 </ContentPage>
