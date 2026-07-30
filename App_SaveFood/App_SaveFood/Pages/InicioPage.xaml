@@ -79,7 +79,7 @@
                                 <Label Text="12" FontSize="28" FontAttributes="Bold"/>
                                 <Label Text="Descartados" FontSize="12"/>
                             </VerticalStackLayout>
-                            <Label Text=">" FontAttributes="Bold" FontSize="32" Grid.Column="2"/>
+                            <Label Text=">" FontAttributes="Bold" FontSize="32" Grid.Column="2" VerticalOptions="Center"/>
                         </Grid>
                     </Border>
                 </VerticalStackLayout>
