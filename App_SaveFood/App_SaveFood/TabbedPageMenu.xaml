@@ -8,13 +8,10 @@
             UnselectedTabColor="Gray"
             SelectedTabColor="DarkGreen"
             BarBackgroundColor="White"
-            Title="TabbedPageMenu">
+            Title="Menu">
 
 
-    <pages:inicioPage/>
-    <pages:ItensPage/>
-    <pages:ConfigPage/>
-    <pages:SairPage/>
+
 
 
 </TabbedPage>

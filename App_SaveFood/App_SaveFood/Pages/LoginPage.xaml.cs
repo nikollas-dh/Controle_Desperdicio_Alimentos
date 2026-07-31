@@ -1,4 +1,6 @@
 using App_SaveFood.Models;
+using System.Text;
+using System.Text.Json;
 
 namespace App_SaveFood;
 
@@ -9,13 +11,38 @@ public partial class LoginPage : ContentPage
 		InitializeComponent();
 	}
 
-    private void btnLogin_Clicked(object sender, EventArgs e)
+    private async void btnLogin_Clicked(object sender, EventArgs e)
     {
-		Usuario usuario = new Usuario();
+		var usuario = new Usuario();
 		usuario.Email = txtEmail.Text;
-		usuario.Senha= txtSenha.Text;
+        usuario.Senha = txtSenha.Text;
+        try
+        {
+            HttpClient client = new HttpClient();
+            string url = "http://10.0.2.2:5123/api/user/login";
+            string json = JsonSerializer.Serialize(usuario);
 
-        Application.Current.MainPage = new TabbedPageMenu();
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            var res = await client.PostAsync(url, content);
+            if (res.IsSuccessStatusCode)
+            {
+                var resBody = await res.Content.ReadAsStringAsync();
+                var usLogado = JsonSerializer.Deserialize<Usuario>(resBody, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+                await DisplayAlert("Sucesso", "Seja Bem-Vindo", "Ok");
+                Application.Current.MainPage = new TabbedPageMenu(usLogado);
+            }
+            else
+            {
+                await DisplayAlert("Erro", "Usuário ou senha inválidos!", "Ok");
+                return;
+            }
+        }
+        catch
+        { }
+
 
     }
 

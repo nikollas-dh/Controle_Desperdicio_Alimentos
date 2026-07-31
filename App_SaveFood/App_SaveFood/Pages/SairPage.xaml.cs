@@ -2,7 +2,7 @@ namespace App_SaveFood;
 
 public partial class SairPage : ContentPage
 {
-	public SairPage()
+	public SairPage(Models.Usuario? usuario)
 	{
 		InitializeComponent();
 	}
@@ -20,9 +20,9 @@ public partial class SairPage : ContentPage
         {
             Application.Current.MainPage = new NavigationPage(new LoginPage());
         }
-        else
-        {
-            Application.Current.MainPage = new TabbedPageMenu();
-        }
+        //else
+        //{
+        //    Application.Current.MainPage = new TabbedPageMenu();
+        //}
     }
 }
