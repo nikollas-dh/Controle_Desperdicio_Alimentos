@@ -5,16 +5,16 @@
              >
     <VerticalStackLayout VerticalOptions="Center">
         <Border WidthRequest="500" HeightRequest="700" StrokeThickness="1" StrokeShape="RoundRectangle 100" Padding="20">
-            <VerticalStackLayout HorizontalOptions="Center" Padding="50">
+            <VerticalStackLayout HorizontalOptions="Center" Padding="0" Margin="0,50,0,0">
                 <Label Text="Crie sua Conta" FontSize="24" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,0,0,50"/>
-                    <Entry Placeholder="Nome Completo" x:Name="txtNome"/>
-                    <Entry Placeholder="Email" x:Name="txtEmail"/>
-                    <HorizontalStackLayout>
-                        <Entry Placeholder="Senha" x:Name="txtSenha" IsPassword="True" WidthRequest="350"/>
+                    <Entry Placeholder="Nome Completo" x:Name="txtNome" WidthRequest="330"/>
+                    <Entry Placeholder="Email" x:Name="txtEmail" WidthRequest="330"/>
+                    <HorizontalStackLayout Margin="50,0,0,0">
+                        <Entry Placeholder="Senha" x:Name="txtSenha" IsPassword="True" WidthRequest="330"/>
                         <ImageButton Source="eye.png" x:Name="eyeButton" Clicked="eyeButton_Clicked" WidthRequest="5"/>
                     </HorizontalStackLayout>
-                    <HorizontalStackLayout>
-                        <Entry Placeholder="Confirmar Senha" x:Name="txtConfirmarSenha" WidthRequest="350" IsPassword="True"/>
+                    <HorizontalStackLayout Margin="50,0,0,0">
+                        <Entry Placeholder="Confirmar Senha" x:Name="txtConfirmarSenha" WidthRequest="330" IsPassword="True"/>
                         <ImageButton Source="eye.png" x:Name="eyeButton2" WidthRequest="20" Clicked="eyeButton2_Clicked"/>
                     </HorizontalStackLayout>
                     <Button Text="Criar Conta" FontAttributes="Bold" FontSize="16" Margin="0,150,0,0" CornerRadius="50"  WidthRequest="250" HeightRequest="60" />
