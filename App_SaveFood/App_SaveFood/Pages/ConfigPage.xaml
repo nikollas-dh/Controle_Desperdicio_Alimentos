@@ -15,15 +15,26 @@
             </HorizontalStackLayout>
         </Grid>
         
-        <Label Text="Configurações" FontAttributes="Bold" FontSize="32" Margin="30,30,0,30"/>
-        <Grid HorizontalOptions="Center">
+        <Label Text="Configurações" FontAttributes="Bold" FontSize="32" Margin="30,30,0,50"/>
+        <Grid HorizontalOptions="Center" >
             <Frame WidthRequest="140" HeightRequest="140" CornerRadius="70" Padding="0" BackgroundColor="#D9D9D9" HasShadow="False">
                 <Image Source="usuario.png"/>
             </Frame>
 
-            <Frame WidthRequest="40" HeightRequest="40" CornerRadius="40" BackgroundColor="Green" Padding="0" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,10,10">
-                <ImageButton Source="camera.png" BackgroundColor="Transparent"/>
+            <Frame WidthRequest="55" HeightRequest="55" CornerRadius="40" BackgroundColor="Green" Padding="0" HorizontalOptions="End" VerticalOptions="End" Margin="200,0,0,0">
+                <ImageButton Source="camera.png" BackgroundColor="Transparent" WidthRequest="20"/>
             </Frame>
         </Grid>
+
+        <VerticalStackLayout Margin="80,90,0,0">
+            <HorizontalStackLayout>
+                <Switch/>
+                <Label Text="Permanecer logado" VerticalTextAlignment="Center"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout >
+                <Switch/>
+                <Label Text="Modo escuro" VerticalTextAlignment="Center"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
