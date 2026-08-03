@@ -1,5 +1,7 @@
 using App_SaveFood.Models;
 using System.Net.Http.Json;
+using System.Text;
+using System.Text.Json;
 
 namespace App_SaveFood;
 
@@ -70,6 +72,55 @@ public partial class CadastroPage : ContentPage
         {
             eyePin.Source = "eye.png";
             txtPin.IsPassword = true;
+        }
+    }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+        var us = new Usuario();
+        us.Email = txtEmail.Text;
+        us.Senha = txtSenha.Text;
+        us.Nome = txtNome.Text;
+        us.Pin = txtPin.Text;
+
+        //Restaurante restaurante = new Restaurante();
+
+        var restauranteSelecionado = pickerRestaurante.SelectedItem as Restaurante;
+
+        if (restauranteSelecionado == null)
+        {
+            await DisplayAlert("Erro", "Selecione um restaurante.", "OK");
+            return;
+        }
+
+        us.FkIdRestaurante = restauranteSelecionado.IdRestaurante;
+
+        HttpClient client = new HttpClient();
+        
+        try
+        {
+            string url = "http://10.0.2.2:5123/api/user";
+            string json = JsonSerializer.Serialize(us); 
+
+            var content = new StringContent(json,Encoding.UTF8,"application/json");
+            var res = await client.PostAsync(url, content);
+
+            if (res.IsSuccessStatusCode)
+            {
+                var resBody = await res.Content.ReadAsStringAsync();
+                var usLogado = JsonSerializer.Deserialize<Usuario>(resBody, new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+                await DisplayAlert("Sucesso", "Usuário cadastrado com sucesso!","Ok");
+            }
+        }
+        catch (Exception)
+        {
+
+            await DisplayAlert("Erro", "Não foi possível conectar com a API!", "Ok");
+            ;
         }
     }
 }
