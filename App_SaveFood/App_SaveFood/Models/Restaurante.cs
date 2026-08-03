@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace App_SaveFood.Models;
 
@@ -15,7 +16,8 @@ public partial class Restaurante
 
     public string? Logotipo { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<ItemEstoque> ItemEstoques { get; set; } = new List<ItemEstoque>();
-
+    [JsonIgnore]
     public virtual ICollection<Usuario> Usuarios { get; set; } = new List<Usuario>();
 }

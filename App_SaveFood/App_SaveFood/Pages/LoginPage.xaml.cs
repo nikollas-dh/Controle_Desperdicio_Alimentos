@@ -41,7 +41,10 @@ public partial class LoginPage : ContentPage
             }
         }
         catch
-        { }
+        {
+            await DisplayAlert("Erro", "Não foi possível conectar com a API!", "Ok");
+            return;
+        }
 
 
     }
