@@ -16,18 +16,18 @@ namespace API.Controllers
             ct = context;
         }
 
-        [HttpGet("{id:int}")]
-        public ActionResult itemRestaurante([FromRoute]int id) 
-        {
-            var estoque = ct.ItemEstoques.Where(u=>u.FkIdRestaurante == id)
-                .Select(i => new
-                {
-                    id= i.FkIdRestaurante,
-                    item = i.FkIdItemNavigation.Nome,
-                    quantidade = i.Quantidade+ i.FkIdUnidadeNavigation.Nome
+        //[HttpGet("{id:int}")]
+        //public ActionResult itemRestaurante([FromRoute]int id) 
+        //{
+        //    var estoque = ct.ItemEstoques.Where(u=>u.FkIdRestaurante == id)
+        //        .Select(i => new
+        //        {
+        //            id= i.FkIdRestaurante,
+        //            item = i.FkIdItemNavigation.Nome,
+        //            quantidade = i.Quantidade+ i.FkIdUnidadeNavigation.Nome
 
-                }).ToList();
-                return Ok(estoque);
-        }
+        //        }).ToList();
+        //        return Ok(estoque);
+        //}
     }
 }

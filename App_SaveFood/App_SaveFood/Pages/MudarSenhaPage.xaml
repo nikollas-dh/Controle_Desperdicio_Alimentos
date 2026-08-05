@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_SaveFood.Pages.MudarSenhaPage"
+             Title="">
+    <VerticalStackLayout>
+        <Label 
+            Text="Esqueci minha senha!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry Placeholder="email"/>
+        <Entry Placeholder="pin"/>
+        <Entry Placeholder="nova senha"/>
+        <Entry Placeholder="confirmar senha"/>
+
+        <Button Text="Alterar senha"/>
+    </VerticalStackLayout>
+</ContentPage>

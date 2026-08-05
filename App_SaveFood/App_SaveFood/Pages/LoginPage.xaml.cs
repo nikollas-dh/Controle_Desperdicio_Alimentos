@@ -1,6 +1,8 @@
 using App_SaveFood.Models;
+using App_SaveFood.Pages;
 using System.Text;
 using System.Text.Json;
+
 
 namespace App_SaveFood;
 
@@ -66,5 +68,10 @@ public partial class LoginPage : ContentPage
             eyeButton.Source = "eye.png";
             txtSenha.IsPassword=true;
         }
+    }
+
+    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        Navigation.PushAsync(new MudarSenhaPage());
     }
 }
