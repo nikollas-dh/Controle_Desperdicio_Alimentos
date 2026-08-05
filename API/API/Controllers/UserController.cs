@@ -40,7 +40,7 @@ namespace API.Controllers
             {
                 ct.Usuarios.Add(usuario);
                 ct.SaveChanges();
-                return(Ok());
+                return(Ok(usuario));
             }
             catch (Exception)
             {

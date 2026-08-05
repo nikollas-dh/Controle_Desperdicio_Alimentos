@@ -114,13 +114,12 @@ public partial class CadastroPage : ContentPage
                 });
 
                 await DisplayAlert("Sucesso", "Usuário cadastrado com sucesso!","Ok");
+                await Navigation.PopAsync();
             }
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-
-            await DisplayAlert("Erro", "Não foi possível conectar com a API!", "Ok");
-            ;
+            await DisplayAlert("Erro", ex.Message, "OK");
         }
     }
 }
