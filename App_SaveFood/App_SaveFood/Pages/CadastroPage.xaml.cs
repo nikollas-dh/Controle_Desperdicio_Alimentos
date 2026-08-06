@@ -15,16 +15,14 @@ public partial class CadastroPage : ContentPage
 
     private async void CarregarRestaurantes()
     {
-        await DisplayAlert("Teste", "Método iniciado", "OK");
 
         HttpClient client = new HttpClient();
 
         try
         {
-            await DisplayAlert("Teste", "Método iniciado2", "OK");
-
             var restaurantes = await client.GetFromJsonAsync<List<Restaurante>>(
-      "http://10.0.2.2:5123/api/restaurante");
+            "http://192.168.92.27:5123/api/restaurante");
+            //"http://10.0.2.2:5123/api/restaurante");
 
             pickerRestaurante.ItemsSource = restaurantes;
         }
@@ -99,7 +97,8 @@ public partial class CadastroPage : ContentPage
         
         try
         {
-            string url = "http://10.0.2.2:5123/api/user";
+            string url = "http://192.168.92.27:5123/api/user";
+            //string url = "http://10.0.2.2:5123/api/user";
             string json = JsonSerializer.Serialize(us); 
 
             var content = new StringContent(json,Encoding.UTF8,"application/json");

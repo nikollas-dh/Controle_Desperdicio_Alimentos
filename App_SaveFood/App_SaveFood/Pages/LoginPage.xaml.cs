@@ -21,7 +21,8 @@ public partial class LoginPage : ContentPage
         try
         {
             HttpClient client = new HttpClient();
-            string url = "http://10.0.2.2:5123/api/user/login";
+            string url = "http://192.168.92.27:5123/api/user/login";
+            //string url = "http://10.0.2.2:5123/api/user/login";
             string json = JsonSerializer.Serialize(usuario);
 
             var content = new StringContent(json, Encoding.UTF8, "application/json");
