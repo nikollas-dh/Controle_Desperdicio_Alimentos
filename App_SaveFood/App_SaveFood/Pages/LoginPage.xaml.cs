@@ -75,4 +75,9 @@ public partial class LoginPage : ContentPage
     {
         Navigation.PushAsync(new MudarSenhaPage());
     }
+
+    private void chxRecaptcha_CheckedChanged(object sender, CheckedChangedEventArgs e)
+    {
+        Navigation.PushModalAsync(new ModalRecaptcha());
+    }
 }

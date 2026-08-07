@@ -16,7 +16,7 @@
                     <ImageButton Source="eye.png" x:Name="eyeButton" Clicked="eyeButton_Clicked" WidthRequest="10"/>
                 </HorizontalStackLayout>
                 <HorizontalStackLayout Margin="45,0,0,20">
-                    <CheckBox/>
+                    <CheckBox x:Name="chxRecaptcha" CheckedChanged="chxRecaptcha_CheckedChanged"/>
                     <Label Text="Não sou um robô" VerticalOptions="Center"/>
                     <Label Text="Esqueci minha senha?" VerticalOptions="Center" Margin="60,0,0,0" TextDecorations="Underline" TextColor="Green" FontAttributes="Bold" >
                         <Label.GestureRecognizers>

@@ -3,10 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_SaveFood.Pages.ModalRecaptcha"
              Title="ModalRecaptcha">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid RowDefinitions="90,90,90" ColumnDefinitions="90,90,90" HorizontalOptions="Center" RowSpacing="10" ColumnSpacing="10" x:Name="gridImagens">
+        
+        <ImageButton Source="gato1.png" Grid.Row="0" Grid.Column="0" Clicked="ImageButton_Clicked"/>
+        <ImageButton Source="cachorro1.png" Grid.Row="0" Grid.Column="1" Clicked="ImageButton_Clicked_1"/>
+        <ImageButton Source="gato2.png" Grid.Column="2" Clicked="ImageButton_Clicked"/>
+
+        <ImageButton Source="cachorro3.png" Grid.Row="1" Grid.Column="0" Clicked="ImageButton_Clicked_1"/>
+        <ImageButton Source="carro1.png" Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked_1"/>
+        <ImageButton Source="cachorro2.png"/>
+
+        <ImageButton Source="cachorro3.png" Grid.Row="2" Grid.Column="0" Clicked="ImageButton_Clicked_1"/>
+        <ImageButton Source="gato3.png" Grid.Row="2" Grid.Column="1" Clicked="ImageButton_Clicked"/>
+        <ImageButton Source="carro2.png" Grid.Row="2" Grid.Column="2" Clicked="ImageButton_Clicked_1"/>
+    </Grid>
 </ContentPage>
